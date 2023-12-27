@@ -48,7 +48,12 @@ class IntroPage extends StatelessWidget {
                 ),
                 // Get Start Button
 
-                const ButtonComponent(text: 'Get Started'),
+                ButtonComponent(
+                  text: 'Get Started',
+                  onTap: () {
+                    Navigator.pushNamed(context, '/menu-page');
+                  },
+                ),
               ]),
         ));
   }
