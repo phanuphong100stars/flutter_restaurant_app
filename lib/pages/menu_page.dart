@@ -143,6 +143,19 @@ class _MenuPageState extends State<MenuPage> {
 
             // Popular Food
 
+            Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25),
+                child: Text('Popular Menu',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey[800],
+                      fontSize: 18,
+                    ))),
+
+            const SizedBox(
+              height: 10,
+            ),
+
             Container(
               decoration: BoxDecoration(
                 color: Colors.grey[100],
@@ -194,7 +207,7 @@ class _MenuPageState extends State<MenuPage> {
             ),
 
             const SizedBox(
-              height: 100,
+              height: 50,
             ),
           ],
         ));
